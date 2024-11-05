@@ -1,30 +1,3 @@
-
-#docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --mysql > initdb.sql
-#docker exec -i guacamole_db mysql --user anyblabla --password=blabla guacamole_db < initdb.sql
-#User: guacadmin 
-#password: guacadmin
-
-#mkdir guacamole
-#touch docker-compose-yml
-#nano docker-compose.yml
-#Não se esqueça de personalizar a senha “root” do MySQL…
-#- MYSQL_ROOT_PASSWORD=blablalinux
-#Não se esqueça de personalizar o nome de usuário do MySQL…
-#MYSQL_USER=anyblabla
-#Não se esqueça de personalizar a senha do MySQL…
-#MYSQL_PASSWORD=blabla
-#A informação de “ambiente” do serviço “guacamole_db” deve ser idêntica à informação de “ambiente” do serviço “guacamole”!
-#A variável “- REMOTE_IP_VALVE_ENABLED=” deve ser ativada se você usar um Proxy Reverso
-#- REMOTE_IP_VALVE_ENABLED=true
-#docker-compose up -d
-#sudo su
-#docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --mysql > initdb.sql
-#docker exec -i guacamole_db mysql --user anyblabla --password=blabla guacamole_db < initdb.sql
-#A ordem deve ser adaptada ao seu ambiente…
-#-user anyblabla --password=blabla
-#https://wiki.blablalinux.be/fr/docker-compose-apache-guacamole
-
-
 version: '3.8'
 
 services:
