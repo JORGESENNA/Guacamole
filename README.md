@@ -1,3 +1,10 @@
+
+![image](https://github.com/user-attachments/assets/88100352-ee37-4346-a6ef-c914771dad1a)
+
+![image](https://github.com/user-attachments/assets/d4a1d793-3b59-4b35-bbae-e71ec58b343d)
+
+
+
 #Aqui está o conteúdo do arquivo “docker-compose.yml”, adapte-o ao seu ambiente…#
 ![image](https://github.com/user-attachments/assets/39fd1864-bf6c-4646-86ff-c3a897982b35)
 
@@ -31,6 +38,8 @@ Troque o Idioma
 
 
 ![image](https://github.com/user-attachments/assets/7985b1bc-d2c5-4f44-ba30-994223bc912e)
+
+ADD  IP:Porta 
 
 ![image](https://github.com/user-attachments/assets/58698c36-7f84-4d75-940c-be903cc581de)
 
