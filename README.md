@@ -15,10 +15,15 @@ Clone o repositório GIT e inicie o guacamole:
 
 git clone "https://github.com/boschkundendienst/guacamole-docker-compose.git"
 cd guacamole-docker-compose
+chmod +x prepare.sh #estava dando error de permissão tive que executar esse script
 ./prepare.sh
 docker compose up -d
 
-Seu servidor guacamole agora deve estar disponível em https://ip of your server:8443/. O nome de usuário padrão é guacadmincom senha guacadmin.
+Seu servidor guacamole agora deve estar disponível em https://ip of your server:8443/. O nome de usuário padrão 
+
+https://1.1.1.1:8443/ #1.1.1.1 trocar pelo seu IP
+User: guacadmin 
+password: guacadmin
 
 
 Detalhes
