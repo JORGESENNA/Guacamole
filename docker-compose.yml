@@ -157,7 +157,7 @@ services:
    - ./nginx/ssl/self.cert:/etc/nginx/ssl/self.cert:ro
    - ./nginx/ssl/self-ssl.key:/etc/nginx/ssl/self-ssl.key:ro
    ports:
-   - 8443:443git st
+   - 8443:443
    - 8081:80
    networks:
      - guacnetwork_compose
